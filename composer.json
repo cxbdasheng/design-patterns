@@ -1,0 +1,15 @@
+{
+    "name": "cxbdasheng/design-patterns",
+    "autoload": {
+        "psr-4": {
+            "cxbdasheng\\DesignPatterns\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "陈大剩",
+            "email": "cxb163mail@163.com"
+        }
+    ],
+    "require": {}
+}
