@@ -22,7 +22,7 @@ class Factory
                 $result = new Display();
                 break;
             default:
-                throw new \InvalidArgumentException('没有此运算');
+                throw new \InvalidArgumentException('没有此部件');
         }
         return $result;
     }
