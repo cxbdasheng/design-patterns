@@ -3,6 +3,7 @@
 namespace cxbdasheng\DesignPatterns\Adapter;
 
 /**
+ *
  * 天龙八部电子书
  */
 class TianlongEBook

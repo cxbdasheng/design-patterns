@@ -2,6 +2,7 @@
 
 namespace cxbdasheng\DesignPatterns\Adapter;
 /**
+ *
  * 适配器（电脑）
  */
 class ComputerBookAdapter implements BookInterface
