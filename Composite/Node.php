@@ -27,9 +27,10 @@ abstract class Node
     abstract public function remove(Node $node);
 
     /**
-     * 显示当前文件树
+     * 显示当前树
+     * @param $level 树等级
      * @return mixed
      * @author chendashengpc
      */
-    abstract public function display();
+    abstract public function display($level);
 }

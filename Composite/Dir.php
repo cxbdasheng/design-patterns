@@ -1,7 +1,9 @@
 <?php
 
 namespace cxbdasheng\DesignPatterns\Composite;
-
+/**
+ * 文件夹
+ */
 class Dir extends Node
 {
     protected $children = [];
@@ -22,12 +24,17 @@ class Dir extends Node
         unset($this->children[$node->name]);
     }
 
-    public function display()
+    /**
+     * 输出目录 [d] 为目录
+     * @param $level
+     * @return string
+     * @author chendashengpc
+     */
+    public function display($level = '')
     {
-        $nameStr = $this->name .PHP_EOL;
+        $nameStr = $level . '[d]' . $this->name . PHP_EOL;
         foreach ($this->children as $k => $v) {
-
-            $nameStr .= '--' . $v->display();
+            $nameStr .= $v->display($level . '--');
         }
         return $nameStr;
     }

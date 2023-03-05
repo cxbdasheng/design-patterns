@@ -29,6 +29,15 @@ $composite->remove($dir);
 $singleton = new Dir('Singleton');
 $singletonFile = new File('Singleton.php');
 $singleton->add($singletonFile);
+
+/**
+ * 测试文件夹
+ */
+$test = new Dir('test');
+$testFile = new File('test-file');
+$test->add($testFile);
+$singleton->add($test);
+
 $designPatterns->add($singleton);
 
 echo $designPatterns->display();

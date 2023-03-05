@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Composite;
 
+/**
+ * 文件类
+ */
 class File extends Node
 {
     public function add(Node $node)
@@ -14,8 +17,14 @@ class File extends Node
         throw new \Exception('文件不能添加子节点');
     }
 
-    public function display()
+    /**
+     * 输出文件 [-] 为文件
+     * @param $level
+     * @return string
+     * @author chendashengpc
+     */
+    public function display($level = '')
     {
-        return '--' . $this->name . PHP_EOL;
+        return $level . '[-]' . $this->name . PHP_EOL;
     }
 }
