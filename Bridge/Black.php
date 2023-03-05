@@ -9,6 +9,6 @@ class Black implements ColorInterface
 {
     public function getInfo()
     {
-        return '红色';
+        return '黑色';
     }
 }
