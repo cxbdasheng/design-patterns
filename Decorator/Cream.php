@@ -1,7 +1,9 @@
 <?php
 
 namespace cxbdasheng\DesignPatterns\Decorator;
-
+/**
+ * 奶油
+ */
 class Cream extends Decorator
 {
     public function name()

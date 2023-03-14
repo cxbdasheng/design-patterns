@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Decorator;
 
+/**
+ * 碧根果
+ */
 class Pecan extends Decorator
 {
     public function name()

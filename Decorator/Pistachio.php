@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Decorator;
 
+/**
+ * 开心果
+ */
 class Pistachio extends Decorator
 {
     public function name()
