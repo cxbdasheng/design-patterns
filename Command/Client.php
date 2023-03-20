@@ -9,6 +9,7 @@ $create = new Create($model);
 $update = new Update($model);
 $delete = new Delete($model);
 
+// 设置一个调用者
 $invoker = new Invoker();
 $invoker->setCommand($create);
 $invoker->setCommand($update);
