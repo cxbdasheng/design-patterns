@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Command;
 
+/**
+ * 具体接受者类（Model类）
+ */
 class Model
 {
 
