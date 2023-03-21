@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Mediator;
 
+/**
+ * 中介接口
+ */
 interface  MediatorInterface
 {
     /**

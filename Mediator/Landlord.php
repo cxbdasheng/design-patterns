@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Mediator;
 
+/**
+ * 房东
+ */
 class Landlord extends Customer
 {
     /**
