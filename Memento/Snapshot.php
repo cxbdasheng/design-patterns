@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Memento;
 
+/**
+ * 快照
+ */
 class Snapshot
 {
 

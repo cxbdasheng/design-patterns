@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Memento;
 
+/**
+ * 原型类
+ */
 class Origin
 {
 

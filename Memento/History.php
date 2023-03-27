@@ -2,6 +2,9 @@
 
 namespace cxbdasheng\DesignPatterns\Memento;
 
+/**
+ * 存历史类
+ */
 class History
 {
     public $list = [
