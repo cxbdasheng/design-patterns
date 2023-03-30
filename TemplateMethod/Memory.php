@@ -22,15 +22,27 @@ abstract class Memory
     abstract public function size(): string;
 
     /**
-     * 运行方法
+     * 运行参数
+     * @return void
+     * @author chendashengpc
+     */
+    public function config()
+    {
+        echo '内存品牌：' . $this->brand() . PHP_EOL;
+        echo '内存大小：' . $this->size() . PHP_EOL;
+        echo '内存颗粒：' . $this->particles() . PHP_EOL;
+    }
+
+    /**
+     * 运行方法，运行是通用的。
      * @return void
      * @author chendashengpc
      */
     public function run()
     {
-        echo '内存品牌：' . $this->brand() . PHP_EOL;
-        echo '内存大小：' . $this->size() . PHP_EOL;
-        echo '内存颗粒：' . $this->particles() . PHP_EOL;
+        echo '开始运行 ' . $this->brand() . ' 内存条' . PHP_EOL;
+        $this->config();
+        // do something
     }
 
     /**
