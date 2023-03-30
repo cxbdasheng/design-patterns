@@ -22,7 +22,7 @@ abstract class Memory
     abstract public function size(): string;
 
     /**
-     * 运行参数
+     * 获取参数
      * @return void
      * @author chendashengpc
      */
